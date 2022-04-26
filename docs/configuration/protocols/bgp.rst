@@ -818,7 +818,7 @@ For outbound updates the order of preference is:
 .. cfgcmd:: set protocols bgp neighbor <address|interface> address-family
    <ipv4-unicast|ipv6-unicast> prefix-list <export|import> <name>
 
-   This command applies the prfefix list filters named in <name> to the
+   This command applies the prefix list filters named in <name> to the
    specified BGP neighbor to restrict the routing information that BGP learns
    and/or advertises. The arguments :cfgcmd:`export` and :cfgcmd:`import`
    specify the direction in which the prefix list are applied.
